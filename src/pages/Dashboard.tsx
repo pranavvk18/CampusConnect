@@ -1,4 +1,3 @@
-
 import { MainLayout } from "@/components/layout/main-layout";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { AlertTriangle, BookOpen, Calendar, CheckCircle, CircleAlert, ClipboardCheck, Search, UserRound } from "lucide-react";
