@@ -11,6 +11,13 @@ import Attendance from "./pages/Attendance";
 import DigitalID from "./pages/DigitalID";
 import Electives from "./pages/Electives";
 import NotFound from "./pages/NotFound";
+import Plagarism from './pages/plagarism';
+import Clubs from './pages/clubs';
+import LostAndFound from "./pages/lostfound";
+import UserProfile from "./pages/UserProfile";
+import PeerLearningForum from "./pages/PeerLearningForum";
+import QuestionPapers from "./pages/questionpapers";
+
 
 const queryClient = new QueryClient();
 
@@ -27,6 +34,15 @@ const App = () => (
           <Route path="/attendance" element={<Attendance />} />
           <Route path="/digital-id" element={<DigitalID />} />
           <Route path="/electives" element={<Electives />} />
+          <Route path="/plagiarism" element={<Plagarism />} />
+          <Route path="/clubs" element={<Clubs/>} />
+          <Route path="/lostfound" element={<LostAndFound/>} />''
+          <Route path="/peer-learning" element={<PeerLearningForum />} />
+          {/* <Route path="/UserProfile" element={<UserProfile/>} /> */}
+          <Route path="/user-profile" element={<UserProfile />} />
+          <Route path="/questionpapers" element={<QuestionPapers/>} />
+
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

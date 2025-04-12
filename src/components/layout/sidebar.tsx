@@ -55,7 +55,7 @@ const mainNav: NavItem[] = [
   },
   {
     title: "Lost & Found",
-    href: "/lost-found",
+    href: "/lostfound",
     icon: Search,
   },
   {
@@ -65,12 +65,12 @@ const mainNav: NavItem[] = [
   },
   {
     title: "Plagiarism Checker",
-    href: "/plagiarism-checker",
+    href: "/plagiarism",
     icon: ClipboardCheck,
   },
   {
     title: "Question Papers",
-    href: "/question-papers",
+    href: "/questionpapers",
     icon: Calendar,
   },
   {
@@ -78,6 +78,13 @@ const mainNav: NavItem[] = [
     href: "/digital-id",
     icon: UserRound,
   },
+  {
+    title: "Peer Learning",
+    href: "/peer-learning",
+    icon: UserRound,
+  },
+
+
 ];
 
 export function AppSidebar() {
